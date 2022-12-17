@@ -1,13 +1,15 @@
 # ninja log v5
-7	439	6930058421635314	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-287	1883	6930057733270670	CMakeFiles/Project.dir/professor.cpp.obj	87961d8d98a5e80e
-7	439	6930058421635314	Project_autogen/timestamp	9057fd464ab522df
-7	439	6930058421635314	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-7	439	6930058421635314	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-770	2405	6930054485924058	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
-774	2425	6930054486141134	CMakeFiles/Project.dir/main.cpp.obj	b562fe7bb761c4cd
-289	2129	6930057735721427	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-2129	2405	6930057738372767	Project.exe	512a4266892c94d1
-6	849	6930058435823064	build.ninja	3108ce27725a2cca
-387	2805	6930057540535590	CMakeFiles/Project.dir/member.cpp.obj	af3b73f616afda92
-380	2741	6930057539881212	CMakeFiles/Project.dir/student.cpp.obj	a73b713b16bd8232
+13	1170	6930120738636876	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
+505	5085	6930075500824398	CMakeFiles/Project.dir/professor.cpp.obj	87961d8d98a5e80e
+13	1170	6930120738636876	Project_autogen/timestamp	9057fd464ab522df
+13	1170	6930120738636876	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+561	4137	6930080938879492	CMakeFiles/Project.dir/course.cpp.obj	b5cfe3efd26ce268
+13	1170	6930120738636876	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+1461	4935	6930116507213030	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
+1469	5358	6930116511441720	CMakeFiles/Project.dir/main.cpp.obj	b562fe7bb761c4cd
+1465	6705	6930116524891266	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
+6705	6983	6930116527651541	Project.exe	d525cf37eaa1b6b
+2	979	6930120752117758	build.ninja	3108ce27725a2cca
+403	3539	6930072480659145	CMakeFiles/Project.dir/member.cpp.obj	af3b73f616afda92
+501	5361	6930075503588752	CMakeFiles/Project.dir/student.cpp.obj	a73b713b16bd8232
+1472	5252	6930116510387712	CMakeFiles/Project.dir/dashboard.cpp.obj	ea8756e7a08f8df6

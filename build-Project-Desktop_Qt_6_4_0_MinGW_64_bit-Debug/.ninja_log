@@ -1,62 +1,42 @@
 # ninja log v5
-16	555	6930080903055125	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
 505	5085	6930075500824398	CMakeFiles/Project.dir/professor.cpp.obj	87961d8d98a5e80e
-16	555	6930080903055125	Project_autogen/timestamp	9057fd464ab522df
-16	555	6930080903055125	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+22	1461	6930116467845244	Project_autogen/timestamp	9057fd464ab522df
+22	1461	6930116467845244	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
 561	4137	6930080938879492	CMakeFiles/Project.dir/course.cpp.obj	b5cfe3efd26ce268
-16	555	6930080903055125	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-770	2405	6930054485924058	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
-774	2425	6930054486141134	CMakeFiles/Project.dir/main.cpp.obj	b562fe7bb761c4cd
-558	3347	6930080930834063	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-4137	4321	6930080940673896	Project.exe	f3f691e98e86c92d
-6	849	6930058416357448	build.ninja	3108ce27725a2cca
+22	1461	6930116467845244	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+22	1461	6930116467845244	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+1461	4935	6930116507213030	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
+1469	5358	6930116511441720	CMakeFiles/Project.dir/main.cpp.obj	b562fe7bb761c4cd
+1465	6705	6930116524891266	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
+6705	6983	6930116527651541	Project.exe	d525cf37eaa1b6b
+1	736	6930120729915125	build.ninja	3108ce27725a2cca
 403	3539	6930072480659145	CMakeFiles/Project.dir/member.cpp.obj	af3b73f616afda92
 501	5361	6930075503588752	CMakeFiles/Project.dir/student.cpp.obj	a73b713b16bd8232
-16	1474	6930084040162316	Project_autogen/timestamp	9057fd464ab522df
-16	1474	6930084040162316	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-16	1474	6930084040162316	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-16	1474	6930084040162316	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-1478	4392	6930084074262015	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
-1474	4651	6930084076857495	CMakeFiles/Project.dir/main.cpp.obj	b562fe7bb761c4cd
-1482	5701	6930084087336309	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-5701	5908	6930084089382864	Project.exe	f3f691e98e86c92d
-10	356	6930084569146261	Project_autogen/timestamp	9057fd464ab522df
-10	356	6930084569146261	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-10	356	6930084569146261	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-10	356	6930084569146261	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-358	2811	6930084593674904	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-2811	3013	6930084595678296	Project.exe	f3f691e98e86c92d
-9	343	6930084716460916	Project_autogen/timestamp	9057fd464ab522df
-9	343	6930084716460916	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-9	343	6930084716460916	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-9	343	6930084716460916	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-345	2818	6930084741183654	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-2818	3012	6930084743110090	Project.exe	f3f691e98e86c92d
-10	353	6930084879321816	Project_autogen/timestamp	9057fd464ab522df
-10	353	6930084879321816	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-10	353	6930084879321816	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-10	353	6930084879321816	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-355	2831	6930084904105592	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-2831	3027	6930084906027007	Project.exe	f3f691e98e86c92d
-9	351	6930084965758116	Project_autogen/timestamp	9057fd464ab522df
-9	351	6930084965758116	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-9	351	6930084965758116	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-9	351	6930084965758116	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-354	2898	6930084991226243	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-2898	3100	6930084993213757	Project.exe	f3f691e98e86c92d
-12	405	6930090449970874	Project_autogen/timestamp	9057fd464ab522df
-12	405	6930090449970874	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-12	405	6930090449970874	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-12	405	6930090449970874	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-407	3075	6930090476645653	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-3075	3281	6930090478679243	Project.exe	f3f691e98e86c92d
-29	1156	6930095798783964	Project_autogen/timestamp	9057fd464ab522df
-29	1156	6930095798783964	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-29	1156	6930095798783964	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-29	1156	6930095798783964	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-47	1094	6930095940044918	Project_autogen/timestamp	9057fd464ab522df
-47	1094	6930095940044918	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-47	1094	6930095940044918	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
-47	1094	6930095940044918	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
-1099	7265	6930096002450516	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
-7266	7558	6930096005381886	Project.exe	f3f691e98e86c92d
+1472	5252	6930116510387712	CMakeFiles/Project.dir/dashboard.cpp.obj	ea8756e7a08f8df6
+2	979	6930120729915125	build.ninja	3108ce27725a2cca
+13	1170	6930120738636876	Project_autogen/timestamp	9057fd464ab522df
+13	1170	6930120738636876	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+13	1170	6930120738636876	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
+13	1170	6930120738636876	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+1174	5141	6930120781643623	CMakeFiles/Project.dir/error.cpp.obj	7eaecd612752b3f1
+1180	5267	6930120783096907	CMakeFiles/Project.dir/dashboard.cpp.obj	ea8756e7a08f8df6
+1170	5719	6930120787738146	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
+1177	7521	6930120806014264	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
+7521	7977	6930120810526016	Project.exe	989ad32d219f4ab6
+16	1071	6930122025650299	Project_autogen/timestamp	9057fd464ab522df
+16	1071	6930122025650299	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+16	1071	6930122025650299	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
+16	1071	6930122025650299	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+1081	4004	6930122058525412	CMakeFiles/Project.dir/error.cpp.obj	7eaecd612752b3f1
+1078	4055	6930122059032506	CMakeFiles/Project.dir/dashboard.cpp.obj	ea8756e7a08f8df6
+1072	4064	6930122059127539	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
+1075	5130	6930122069768367	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
+5130	5394	6930122072381033	Project.exe	989ad32d219f4ab6
+18	444	6930122821005376	Project_autogen/timestamp	9057fd464ab522df
+18	444	6930122821005376	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+18	444	6930122821005376	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
+18	444	6930122821005376	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+454	2838	6930122844957518	CMakeFiles/Project.dir/dashboard.cpp.obj	ea8756e7a08f8df6
+451	2987	6930122846449113	CMakeFiles/Project.dir/error.cpp.obj	7eaecd612752b3f1
+447	3999	6930122856557956	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
+4000	4268	6930122859197081	Project.exe	989ad32d219f4ab6

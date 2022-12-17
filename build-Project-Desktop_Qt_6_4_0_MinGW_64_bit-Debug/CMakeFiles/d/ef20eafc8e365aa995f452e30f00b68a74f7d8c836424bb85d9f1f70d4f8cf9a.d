@@ -2,6 +2,10 @@ Project_autogen/timestamp: \
   D:/ASSIGNMENTS/Data\ structure/Project/Project/CMakeLists.txt \
   D:/ASSIGNMENTS/Data\ structure/Project/Project/course.cpp \
   D:/ASSIGNMENTS/Data\ structure/Project/Project/course.h \
+  D:/ASSIGNMENTS/Data\ structure/Project/Project/dashboard.cpp \
+  D:/ASSIGNMENTS/Data\ structure/Project/Project/dashboard.h \
+  D:/ASSIGNMENTS/Data\ structure/Project/Project/error.cpp \
+  D:/ASSIGNMENTS/Data\ structure/Project/Project/error.h \
   D:/ASSIGNMENTS/Data\ structure/Project/Project/main.cpp \
   D:/ASSIGNMENTS/Data\ structure/Project/Project/mainwindow.cpp \
   D:/ASSIGNMENTS/Data\ structure/Project/Project/mainwindow.h \
@@ -123,7 +127,9 @@ Project_autogen/timestamp: \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtGui/qtransform.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets/QDialog \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets/QMainWindow \
+  D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets/qdialog.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -511,5 +517,7 @@ Project_autogen/timestamp: \
   D:/PROGRAMS/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   D:/PROGRAMS/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   D:/PROGRAMS/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  D:/ASSIGNMENTS/Data\ structure/Project/Project/dashboard.ui \
+  D:/ASSIGNMENTS/Data\ structure/Project/Project/error.ui \
   D:/ASSIGNMENTS/Data\ structure/Project/Project/mainwindow.ui \
   D:/PROGRAMS/qt/Tools/CMake_64/bin/cmake.exe

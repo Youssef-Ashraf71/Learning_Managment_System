@@ -1,5 +1,6 @@
 D:/ASSIGNMENTS/Data\ structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/ASSIGNMENTS/Data\ structure/Project/Project/mainwindow.h \
   D:/ASSIGNMENTS/Data\ structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/moc_predefs.h \
+  D:/ASSIGNMENTS/Data\ structure/Project/Project/dashboard.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtCore/qalgorithms.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtCore/qanystringview.h \
   D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtCore/qarraydata.h \

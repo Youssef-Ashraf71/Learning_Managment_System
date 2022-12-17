@@ -73,6 +73,22 @@ build CMakeFiles/Project.dir/mainwindow.cpp.obj: CXX_COMPILER__Project_Debug D$:
   OBJECT_DIR = CMakeFiles\Project.dir
   OBJECT_FILE_DIR = CMakeFiles\Project.dir
 
+build CMakeFiles/Project.dir/error.cpp.obj: CXX_COMPILER__Project_Debug D$:/ASSIGNMENTS/Data$ structure/Project/Project/error.cpp || cmake_object_order_depends_target_Project
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Project.dir\error.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -I"D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug" -I"D:/ASSIGNMENTS/Data structure/Project/Project" -I"D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/include" -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtCore -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/mkspecs/win32-g++ -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Project.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project.dir
+
+build CMakeFiles/Project.dir/dashboard.cpp.obj: CXX_COMPILER__Project_Debug D$:/ASSIGNMENTS/Data$ structure/Project/Project/dashboard.cpp || cmake_object_order_depends_target_Project
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Project.dir\dashboard.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -I"D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug" -I"D:/ASSIGNMENTS/Data structure/Project/Project" -I"D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/include" -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtCore -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/mkspecs/win32-g++ -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtWidgets -isystem D:/PROGRAMS/qt/6.4.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Project.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project.dir
+
 build CMakeFiles/Project.dir/member.cpp.obj: CXX_COMPILER__Project_Debug D$:/ASSIGNMENTS/Data$ structure/Project/Project/member.cpp || cmake_object_order_depends_target_Project
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Project.dir\member.cpp.obj.d
@@ -113,7 +129,7 @@ build CMakeFiles/Project.dir/course.cpp.obj: CXX_COMPILER__Project_Debug D$:/ASS
 #############################################
 # Link the executable Project.exe
 
-build Project.exe: CXX_EXECUTABLE_LINKER__Project_Debug CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj CMakeFiles/Project.dir/main.cpp.obj CMakeFiles/Project.dir/mainwindow.cpp.obj CMakeFiles/Project.dir/member.cpp.obj CMakeFiles/Project.dir/student.cpp.obj CMakeFiles/Project.dir/professor.cpp.obj CMakeFiles/Project.dir/course.cpp.obj | D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Widgets.a D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Gui.a D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Core.a D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6EntryPoint.a || Project_autogen Project_autogen_timestamp_deps
+build Project.exe: CXX_EXECUTABLE_LINKER__Project_Debug CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj CMakeFiles/Project.dir/main.cpp.obj CMakeFiles/Project.dir/mainwindow.cpp.obj CMakeFiles/Project.dir/error.cpp.obj CMakeFiles/Project.dir/dashboard.cpp.obj CMakeFiles/Project.dir/member.cpp.obj CMakeFiles/Project.dir/student.cpp.obj CMakeFiles/Project.dir/professor.cpp.obj CMakeFiles/Project.dir/course.cpp.obj | D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Widgets.a D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Gui.a D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Core.a D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6EntryPoint.a || Project_autogen Project_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Widgets.a  D:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Gui.a  D:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -200,7 +216,7 @@ build Project_autogen_timestamp_deps: phony CMakeFiles/Project_autogen_timestamp
 #############################################
 # Utility command for Project_autogen
 
-build Project_autogen: phony CMakeFiles/Project_autogen Project_autogen/include/ui_mainwindow.h Project_autogen/timestamp Project_autogen/mocs_compilation.cpp Project_autogen_timestamp_deps
+build Project_autogen: phony CMakeFiles/Project_autogen Project_autogen/include/ui_error.h Project_autogen/include/ui_dashboard.h Project_autogen/include/ui_mainwindow.h Project_autogen/timestamp Project_autogen/mocs_compilation.cpp Project_autogen_timestamp_deps
 
 
 #############################################
@@ -216,13 +232,13 @@ build Project_autogen/timestamp Project_autogen/mocs_compilation.cpp | ${cmake_n
 #############################################
 # Phony custom command for CMakeFiles\Project_autogen_timestamp_deps
 
-build CMakeFiles/Project_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Project_autogen_timestamp_deps: phony D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Core.a D$:/PROGRAMS/qt/6.4.0/mingw_64/./bin/moc.exe D$:/PROGRAMS/qt/6.4.0/mingw_64/./bin/uic.exe D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/Project_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Project_autogen_timestamp_deps: phony D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Core.a D$:/PROGRAMS/qt/6.4.0/mingw_64/./bin/uic.exe D$:/PROGRAMS/qt/6.4.0/mingw_64/./bin/moc.exe D$:/PROGRAMS/qt/6.4.0/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\Project_autogen
 
-build CMakeFiles/Project_autogen Project_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/Project_autogen ${cmake_ninja_workdir}Project_autogen/include/ui_mainwindow.h: phony Project_autogen/timestamp || Project_autogen_timestamp_deps
+build CMakeFiles/Project_autogen Project_autogen/include/ui_error.h Project_autogen/include/ui_dashboard.h Project_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/Project_autogen ${cmake_ninja_workdir}Project_autogen/include/ui_error.h ${cmake_ninja_workdir}Project_autogen/include/ui_dashboard.h ${cmake_ninja_workdir}Project_autogen/include/ui_mainwindow.h: phony Project_autogen/timestamp || Project_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

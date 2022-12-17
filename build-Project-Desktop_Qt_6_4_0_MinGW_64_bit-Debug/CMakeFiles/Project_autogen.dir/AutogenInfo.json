@@ -262,6 +262,18 @@
 			null
 		],
 		[
+			"D:/ASSIGNMENTS/Data structure/Project/Project/dashboard.h",
+			"MU",
+			"EWIEGA46WW/moc_dashboard.cpp",
+			null
+		],
+		[
+			"D:/ASSIGNMENTS/Data structure/Project/Project/error.h",
+			"MU",
+			"EWIEGA46WW/moc_error.cpp",
+			null
+		],
+		[
 			"D:/ASSIGNMENTS/Data structure/Project/Project/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -362,6 +374,12 @@
 			"MU",
 			null
 		],
+		[
+			"D:/ASSIGNMENTS/Data structure/Project/Project/dashboard.cpp",
+			"MU",
+			null
+		],
+		[ "D:/ASSIGNMENTS/Data structure/Project/Project/error.cpp", "MU", null ],
 		[ "D:/ASSIGNMENTS/Data structure/Project/Project/main.cpp", "MU", null ],
 		[
 			"D:/ASSIGNMENTS/Data structure/Project/Project/mainwindow.cpp",

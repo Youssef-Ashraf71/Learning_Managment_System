@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
@@ -27,13 +28,22 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QPushButton *pushButton;
-    QLabel *photo;
-    QWidget *widget;
+    QGridLayout *gridLayout;
+    QSpacerItem *verticalSpacer_3;
+    QSpacerItem *horizontalSpacer_4;
+    QVBoxLayout *verticalLayout_2;
     QVBoxLayout *verticalLayout;
-    QLineEdit *lineEdit;
+    QLineEdit *lbl_username;
     QSpacerItem *verticalSpacer;
-    QLineEdit *lineEdit_2;
+    QLineEdit *lbl_password;
+    QSpacerItem *verticalSpacer_5;
+    QPushButton *btn_login;
+    QSpacerItem *horizontalSpacer;
+    QLabel *photo;
+    QSpacerItem *verticalSpacer_2;
+    QSpacerItem *horizontalSpacer_2;
+    QSpacerItem *horizontalSpacer_3;
+    QSpacerItem *verticalSpacer_4;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -44,32 +54,76 @@ public:
         MainWindow->resize(1149, 675);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(510, 460, 80, 24));
-        photo = new QLabel(centralwidget);
-        photo->setObjectName("photo");
-        photo->setGeometry(QRect(370, 30, 341, 231));
-        widget = new QWidget(centralwidget);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(490, 270, 110, 164));
-        verticalLayout = new QVBoxLayout(widget);
-        verticalLayout->setObjectName("verticalLayout");
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        lineEdit = new QLineEdit(widget);
-        lineEdit->setObjectName("lineEdit");
-        lineEdit->setReadOnly(false);
+        gridLayout = new QGridLayout(centralwidget);
+        gridLayout->setObjectName("gridLayout");
+        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        verticalLayout->addWidget(lineEdit);
+        gridLayout->addItem(verticalSpacer_3, 0, 2, 1, 1);
+
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout->addItem(horizontalSpacer_4, 3, 3, 1, 1);
+
+        verticalLayout_2 = new QVBoxLayout();
+        verticalLayout_2->setObjectName("verticalLayout_2");
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setObjectName("verticalLayout");
+        lbl_username = new QLineEdit(centralwidget);
+        lbl_username->setObjectName("lbl_username");
+        lbl_username->setReadOnly(false);
+
+        verticalLayout->addWidget(lbl_username);
 
         verticalSpacer = new QSpacerItem(20, 50, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout->addItem(verticalSpacer);
 
-        lineEdit_2 = new QLineEdit(widget);
-        lineEdit_2->setObjectName("lineEdit_2");
+        lbl_password = new QLineEdit(centralwidget);
+        lbl_password->setObjectName("lbl_password");
+        lbl_password->setEchoMode(QLineEdit::Password);
 
-        verticalLayout->addWidget(lineEdit_2);
+        verticalLayout->addWidget(lbl_password);
+
+        verticalSpacer_5 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer_5);
+
+
+        verticalLayout_2->addLayout(verticalLayout);
+
+        btn_login = new QPushButton(centralwidget);
+        btn_login->setObjectName("btn_login");
+
+        verticalLayout_2->addWidget(btn_login);
+
+
+        gridLayout->addLayout(verticalLayout_2, 3, 2, 1, 1);
+
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout->addItem(horizontalSpacer, 1, 0, 1, 1);
+
+        photo = new QLabel(centralwidget);
+        photo->setObjectName("photo");
+        photo->setScaledContents(true);
+
+        gridLayout->addWidget(photo, 1, 2, 1, 1);
+
+        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        gridLayout->addItem(verticalSpacer_2, 2, 2, 1, 1);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout->addItem(horizontalSpacer_2, 1, 4, 1, 1);
+
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout->addItem(horizontalSpacer_3, 3, 1, 1, 1);
+
+        verticalSpacer_4 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        gridLayout->addItem(verticalSpacer_4, 4, 2, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -88,13 +142,13 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
+        lbl_username->setInputMask(QString());
+        lbl_username->setText(QString());
+        lbl_username->setPlaceholderText(QCoreApplication::translate("MainWindow", "Enter Username", nullptr));
+        lbl_password->setText(QString());
+        lbl_password->setPlaceholderText(QCoreApplication::translate("MainWindow", "Enter Password", nullptr));
+        btn_login->setText(QCoreApplication::translate("MainWindow", "Log in", nullptr));
         photo->setText(QString());
-        lineEdit->setInputMask(QString());
-        lineEdit->setText(QString());
-        lineEdit->setPlaceholderText(QCoreApplication::translate("MainWindow", "Enter Username", nullptr));
-        lineEdit_2->setText(QString());
-        lineEdit_2->setPlaceholderText(QCoreApplication::translate("MainWindow", "Enter Password", nullptr));
     } // retranslateUi
 
 };

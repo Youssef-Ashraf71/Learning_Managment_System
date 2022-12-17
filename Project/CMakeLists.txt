@@ -17,6 +17,8 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
+        error.cpp
+        Dashboard.cpp
         member.cpp
         student.cpp
         professor.cpp
@@ -26,6 +28,10 @@ set(PROJECT_SOURCES
         student.h
         member.h
         mainwindow.h
+        Dashboard.h
+        error.h
+        error.ui
+        Dashboard.ui
         mainwindow.ui
 )
 
