@@ -93,6 +93,7 @@ public:
 
         btn_login = new QPushButton(centralwidget);
         btn_login->setObjectName("btn_login");
+        btn_login->setAutoDefault(true);
 
         verticalLayout_2->addWidget(btn_login);
 

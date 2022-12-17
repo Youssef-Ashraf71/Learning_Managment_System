@@ -16,6 +16,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     QPixmap pix("D:/DOWNLOADS/WhatsApp Image 2022-12-17 at 5.41.07 PM.jpeg");
     ui->photo->setPixmap(pix);
+    this->setWindowTitle("Log in");
+
 }
 
 MainWindow::~MainWindow()

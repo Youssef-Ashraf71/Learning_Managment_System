@@ -6,6 +6,7 @@ Dashboard::Dashboard(QWidget *parent) :
     ui(new Ui::Dashboard)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Dashboard");
 }
 
 Dashboard::~Dashboard()
