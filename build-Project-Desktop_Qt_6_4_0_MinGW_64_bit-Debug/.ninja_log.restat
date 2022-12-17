@@ -1,0 +1,13 @@
+# ninja log v5
+7	439	6930058421635314	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/timestamp	9057fd464ab522df
+287	1883	6930057733270670	CMakeFiles/Project.dir/professor.cpp.obj	87961d8d98a5e80e
+7	439	6930058421635314	Project_autogen/timestamp	9057fd464ab522df
+7	439	6930058421635314	D:/ASSIGNMENTS/Data structure/Project/build-Project-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+7	439	6930058421635314	Project_autogen/mocs_compilation.cpp	9057fd464ab522df
+770	2405	6930054485924058	CMakeFiles/Project.dir/Project_autogen/mocs_compilation.cpp.obj	efe66a69e51caa10
+774	2425	6930054486141134	CMakeFiles/Project.dir/main.cpp.obj	b562fe7bb761c4cd
+289	2129	6930057735721427	CMakeFiles/Project.dir/mainwindow.cpp.obj	2196d97bf2083294
+2129	2405	6930057738372767	Project.exe	512a4266892c94d1
+6	849	6930058435823064	build.ninja	3108ce27725a2cca
+387	2805	6930057540535590	CMakeFiles/Project.dir/member.cpp.obj	af3b73f616afda92
+380	2741	6930057539881212	CMakeFiles/Project.dir/student.cpp.obj	a73b713b16bd8232
