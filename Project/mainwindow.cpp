@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include<bits/stdc++.h>
+#include<iostream>
+#include<set>
 #include"error.h"
 using namespace std;
 set<QString>usernames;
@@ -15,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
     passwords.insert("123456");
     ui->setupUi(this);
     QPixmap pix("D:/DOWNLOADS/WhatsApp Image 2022-12-17 at 5.41.07 PM.jpeg");
+   // QPixmap pix("C:/Users/lenovo/Documents/tryy/media/logo.jpeg");
     ui->photo->setPixmap(pix);
     this->setWindowTitle("Log in");
 

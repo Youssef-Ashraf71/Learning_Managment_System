@@ -4,7 +4,8 @@
 #include <QMainWindow>
 #include <QWidget>
 #include <QObject>
-#include<bits/stdc++.h>
+#include<iostream>
+#include<set>
 #include"professor.h"
 #include"student.h"
 using namespace std;

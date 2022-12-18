@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QObject>
 #include <QWidget>
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 class member
