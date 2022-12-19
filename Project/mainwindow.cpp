@@ -16,7 +16,12 @@ MainWindow::MainWindow(QWidget *parent)
     passwords.insert("1");
     m["12"]="123";
     ui->setupUi(this);
+<<<<<<< HEAD
     QPixmap pix("D:/DOWNLOADS/WhatsApp Image 2022-12-17 at 5.41.07 PM.jpeg");
+=======
+  //  QPixmap pix("D:/DOWNLOADS/WhatsApp Image 2022-12-17 at 5.41.07 PM.jpeg");
+    QPixmap pix("C:/Users/lenovo/Documents/tryy/media/logo.jpeg");
+>>>>>>> 116b126f7cbf57599ee3749d752e267e01866ab4
     ui->photo->setPixmap(pix);
     this->setWindowTitle("Log in");
 
