@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
     passwords.insert("123456");
     ui->setupUi(this);
     QPixmap pix("D:/DOWNLOADS/WhatsApp Image 2022-12-17 at 5.41.07 PM.jpeg");
-   // QPixmap pix("C:/Users/lenovo/Documents/tryy/media/logo.jpeg");
+  //  QPixmap pix("C:/Users/lenovo/Documents/tryy/media/logo.jpeg");
     ui->photo->setPixmap(pix);
     this->setWindowTitle("Log in");
 
@@ -50,4 +50,12 @@ void MainWindow::on_btn_login_clicked()
     }
 
 }
+
+
+void MainWindow::on_lbl_password_returnPressed()
+{
+    ui->btn_login->animateClick();
+}
+
+
 

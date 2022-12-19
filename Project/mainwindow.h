@@ -20,6 +20,8 @@ private slots:
 
     void on_btn_login_clicked();
 
+    void on_lbl_password_returnPressed();
+
 private:
     Ui::MainWindow *ui;
     Dashboard*dash;
