@@ -29,6 +29,7 @@ set(PROJECT_SOURCES
         member.h
         mainwindow.h
         Dashboard.h
+        Database.h
         error.h
         error.ui
         Dashboard.ui

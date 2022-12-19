@@ -5,13 +5,13 @@
 #include <QObject>
 #include <QWidget>
 #include"member.h"
+class course;
 using namespace std;
 class professor:member
 {
-private:
-   string title;
 public:
-    professor();
+    string title;
+    course* c;
 };
 
 #endif // PROFESSOR_H

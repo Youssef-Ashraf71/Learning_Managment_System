@@ -4,16 +4,15 @@
 #include <QMainWindow>
 #include <QWidget>
 #include <QObject>
-#include<iostream>
-#include<set>
+#include<bits/stdc++.h>
 #include"professor.h"
 #include"student.h"
 using namespace std;
 class course
 {
-    course();
 
-private:
+public:
+
     professor prof;
     set<student>studs;
 

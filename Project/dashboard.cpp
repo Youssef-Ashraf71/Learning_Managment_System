@@ -17,6 +17,7 @@ Dashboard::~Dashboard()
 void Dashboard::on_stud_clicked()
 {
     // new Student
+    hide();
 
 
 
@@ -36,6 +37,12 @@ void Dashboard::on_pushButton_3_clicked()
 
 
 
+
+}
+
+
+void Dashboard::on_pushButton_2_clicked()
+{
 
 }
 
