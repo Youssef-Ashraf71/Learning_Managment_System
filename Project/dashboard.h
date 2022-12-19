@@ -2,7 +2,7 @@
 #define DASHBOARD_H
 
 #include <QMainWindow>
-
+#include<student.h>
 namespace Ui {
 class Dashboard;
 }
@@ -24,6 +24,7 @@ private slots:
 
 private:
     Ui::Dashboard *ui;
+
 };
 
 #endif // DASHBOARD_H

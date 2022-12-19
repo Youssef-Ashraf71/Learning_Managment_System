@@ -17,6 +17,7 @@ Dashboard::~Dashboard()
 void Dashboard::on_stud_clicked()
 {
     // new Student
+    hide();
 
 
 

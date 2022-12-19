@@ -33,6 +33,7 @@ set(PROJECT_SOURCES
         error.ui
         Dashboard.ui
         mainwindow.ui
+        student.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

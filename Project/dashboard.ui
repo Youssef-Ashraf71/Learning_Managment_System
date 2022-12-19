@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -23,8 +23,8 @@
       <height>276</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
-     <item alignment="Qt::AlignHCenter">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
       <widget class="QLabel" name="welcome_admin">
        <property name="font">
         <font>
@@ -34,11 +34,11 @@
         </font>
        </property>
        <property name="text">
-        <string>Weclome Admin !</string>
+        <string>Welcome Admin !</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="1" column="0">
       <spacer name="verticalSpacer">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -51,7 +51,7 @@
        </property>
       </spacer>
      </item>
-     <item>
+     <item row="2" column="0">
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="0">
         <widget class="QPushButton" name="courses">
