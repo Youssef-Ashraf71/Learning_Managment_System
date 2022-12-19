@@ -14,35 +14,28 @@ Dashboard::~Dashboard()
     delete ui;
 }
 
-void Dashboard::on_stud_clicked()
+
+
+void Dashboard::on_btn_studd_clicked()
 {
-    // new Student
     hide();
-
-
-
+    studd=new studmenu(this);
+    studd->show();
 }
 
 
-void Dashboard::on_courses_clicked()
+void Dashboard::on_btn_courss_clicked()
 {
-
-
-
+    hide();
+    courss=new coursemenu(this);
+    courss->show();
 }
 
 
-void Dashboard::on_pushButton_3_clicked()
+void Dashboard::on_btn_proff_clicked()
 {
-
-
-
-
-}
-
-
-void Dashboard::on_pushButton_2_clicked()
-{
-
+    hide();
+    proff=new profmenu(this);
+    proff->show();
 }
 

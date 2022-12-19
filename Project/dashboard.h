@@ -2,7 +2,9 @@
 #define DASHBOARD_H
 
 #include <QMainWindow>
-#include<student.h>
+#include"studmenu.h"
+#include"coursemenu.h"
+#include"profmenu.h"
 namespace Ui {
 class Dashboard;
 }
@@ -16,17 +18,19 @@ public:
     ~Dashboard();
 
 private slots:
-    void on_stud_clicked();
 
-    void on_courses_clicked();
 
-    void on_pushButton_3_clicked();
+    void on_btn_studd_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_btn_courss_clicked();
+
+    void on_btn_proff_clicked();
 
 private:
     Ui::Dashboard *ui;
-
+    studmenu * studd;
+    profmenu* proff;
+    coursemenu* courss;
 };
 
 #endif // DASHBOARD_H

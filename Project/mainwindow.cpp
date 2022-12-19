@@ -14,6 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     m["12"]="123";
     ui->setupUi(this);
     QPixmap pix("D:/DOWNLOADS/WhatsApp Image 2022-12-17 at 5.41.07 PM.jpeg");
+   //   QPixmap pix("C:/Users/lenovo/Documents/tryy/media/logo.jpeg");
     ui->photo->setPixmap(pix);
     this->setWindowTitle("Log in");
 
