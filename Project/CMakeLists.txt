@@ -34,6 +34,10 @@ set(PROJECT_SOURCES
         error.ui
         Dashboard.ui
         mainwindow.ui
+        studmenu.h studmenu.cpp studmenu.ui
+        profmenu.h profmenu.cpp profmenu.ui
+        coursemenu.h coursemenu.cpp coursemenu.ui
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
