@@ -5,14 +5,22 @@
 #include <QObject>
 #include <QWidget>
 #include"member.h"
+
 #include<set>
+
 class course;
+
 class student:member
 {
 
 public:
     student();
-    set<course>* courses;
+    vector<course*> courses;
+    void add_course(course* crs);
+
+
+
+
 };
 
 #endif // STUDENT_H

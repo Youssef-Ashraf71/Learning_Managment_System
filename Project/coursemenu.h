@@ -15,6 +15,12 @@ public:
     explicit coursemenu(QWidget *parent = nullptr);
     ~coursemenu();
 
+private slots:
+    void on_pushButton_2_clicked();
+
+
+    void on_backbtncourse_clicked();
+
 private:
     Ui::coursemenu *ui;
 };

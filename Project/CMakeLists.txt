@@ -15,6 +15,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
+        Database.cpp
         main.cpp
         mainwindow.cpp
         error.cpp
@@ -37,6 +38,7 @@ set(PROJECT_SOURCES
         studmenu.h studmenu.cpp studmenu.ui
         profmenu.h profmenu.cpp profmenu.ui
         coursemenu.h coursemenu.cpp coursemenu.ui
+
 
 )
 

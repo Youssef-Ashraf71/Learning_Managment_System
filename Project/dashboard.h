@@ -26,6 +26,7 @@ private slots:
 
     void on_btn_proff_clicked();
 
+
 private:
     Ui::Dashboard *ui;
     studmenu * studd;

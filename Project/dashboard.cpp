@@ -24,6 +24,7 @@ void Dashboard::on_btn_studd_clicked()
 }
 
 
+
 void Dashboard::on_btn_courss_clicked()
 {
     hide();
