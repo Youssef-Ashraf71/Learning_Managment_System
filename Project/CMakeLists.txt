@@ -38,7 +38,7 @@ set(PROJECT_SOURCES
         studmenu.h studmenu.cpp studmenu.ui
         profmenu.h profmenu.cpp profmenu.ui
         coursemenu.h coursemenu.cpp coursemenu.ui
-
+        Resources.qrc
 
 )
 

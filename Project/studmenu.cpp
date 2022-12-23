@@ -9,7 +9,7 @@ studmenu::studmenu(QWidget *parent) :
 {
     ui->setupUi(this);
     QTableWidget* table=ui->tablestud;
-    table->setWindowTitle("Students");
+    this->setWindowTitle("Students");
     table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
 

@@ -18,14 +18,17 @@ int main(int argc, char *argv[])
 
 
 
-
-    QFile file("C:/Users/lenovo/Desktop/SpyBot.qss");
+//  import style sheets
+    QFile file(":/media/media/SpyBot.qss");
     file.open(QFile::ReadOnly);
 
     QString styleSheet { QLatin1String(file.readAll()) };
 
     //setup stylesheet
     a.setStyleSheet(styleSheet);
+//
+
+
 
 
 

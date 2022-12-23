@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/media">
+        <file>media/logo.jpeg</file>
+        <file>media/SpyBot.qss</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
