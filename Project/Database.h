@@ -9,6 +9,8 @@ using namespace std;
 struct Database
 {
 public:
+    course* selected_course;
+    student* selected_student;
     map<QString,QString>Admin;
     void add_admin(QString username,QString pass)
     {
@@ -19,7 +21,23 @@ public:
     {
         all_courses.push_back(c);
     }
-    QString test="teeest";
+
+    vector<student * >all_students;
+    void add_student(student *s){
+        all_students.push_back(s);
+    }
+    vector<professor*> all_proffessors;
+    void add_professor(professor* p)
+    {
+        all_proffessors.push_back(p);
+    }
+
+    void assign_grade(student *s , course *c,QString g)
+    {
+        s->set_grade(c->get_code(),g);
+        c->set_grade(s,g);
+    }
+
 
 };
 

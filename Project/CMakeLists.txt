@@ -24,6 +24,10 @@ set(PROJECT_SOURCES
         student.cpp
         professor.cpp
         course.cpp
+        courseinfo.cpp
+        add_course_menu.cpp
+        add_course_menu.h
+        courseinfo.h
         course.h
         professor.h
         student.h
@@ -38,6 +42,10 @@ set(PROJECT_SOURCES
         studmenu.h studmenu.cpp studmenu.ui
         profmenu.h profmenu.cpp profmenu.ui
         coursemenu.h coursemenu.cpp coursemenu.ui
+        add_course_menu.ui
+add_stud_menu.h add_stud_menu.cpp add_stud_menu.ui
+courseinfo.ui
+studinfo.cpp studinfo.h studinfo.ui
         Resources.qrc
 
 )

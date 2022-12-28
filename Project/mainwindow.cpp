@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
 
-
+    QGuiApplication::setQuitOnLastWindowClosed(false);
     ui->setupUi(this);
     QPixmap pix(":/media/media/logo.jpeg");
     ui->photo->setPixmap(pix);
@@ -20,10 +20,29 @@ MainWindow::MainWindow(QWidget *parent)
     // intiialize
 
 
-   // hena han3ml mock data
+    // hena han3ml mock data
 
-    course *math=new course();
-    database.add_course(math);
+    student *moe=new student();
+       moe->set_name("Youssef","Ashraf");
+       moe->set_mobile("01007424945"); moe->set_email("yoyobunt@proton.me");
+       moe->set_age(20);
+       moe->set_grade("2");
+       moe->set_id("1");
+
+
+     professor *Samah=new professor("Samah","El-tantawy");
+     vector<student*> c;
+     c.push_back(moe);
+     course *math=new course(Samah,c,"Math","MTH2245","3201","8:30");
+     moe->add_course(math);
+     database.add_student(moe);
+     database.add_course(math);
+     database.add_professor(Samah);
+     database.assign_grade(moe,math,"20");
+
+
+
+
 
 
 }

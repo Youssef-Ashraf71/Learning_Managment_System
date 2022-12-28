@@ -9,30 +9,30 @@ using namespace std;
 
 class member
 {
-protected:
-    string first_name,last_name,mobile,email;
+public:
+    QString first_name,last_name,mobile,email;
     int age;
 
 public:
     member();
-    void set_name(string first_name,string last_name){
+    void set_name(QString first_name,QString last_name){
            this->first_name=first_name;
            this->last_name=last_name;
        }
-       string get_name(){
-          return (this->first_name+this->last_name);
+       QString get_name(){
+          return (this->first_name+" "+this->last_name);
        }
-       void set_mobile(string mobile){
+       void set_mobile(QString mobile){
            this->mobile=mobile;
        }
-       string get_mobile(){
+       QString get_mobile(){
            return this->mobile;
        }
 
-       void set_email(string email){
+       void set_email(QString email){
            this->email=email;
        }
-       string get_email(){
+       QString get_email(){
            return this->email;
        }
        void set_age(int age){

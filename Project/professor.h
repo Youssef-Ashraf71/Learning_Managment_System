@@ -10,8 +10,16 @@ using namespace std;
 class professor:member
 {
 public:
-    string title;
+   professor(QString first_name,QString last_name)
+   {
+    this->first_name=first_name;
+       this->last_name=last_name;
+   }
     course* c;
+    QString get_nname()
+    {
+       return this->get_name();
+    }
 };
 
 #endif // PROFESSOR_H

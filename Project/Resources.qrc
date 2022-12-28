@@ -2,6 +2,8 @@
     <qresource prefix="/media">
         <file>media/logo.jpeg</file>
         <file>media/SpyBot.qss</file>
+        <file>media/proficon.png</file>
+        <file>media/studicon.png</file>
     </qresource>
     <qresource prefix="/"/>
 </RCC>
