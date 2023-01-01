@@ -20,6 +20,10 @@ private slots:
 
     void on_backbtn2_clicked();
 
+    void on_mailline_textEdited(const QString &arg1);
+
+    void on_mobline_textEdited(const QString &arg1);
+
 private:
     Ui::add_stud_menu *ui;
 };

@@ -45,7 +45,7 @@ void studmenu::load_table()
             QTableWidgetItem* student_id= new QTableWidgetItem(database.all_students[i]->get_id());
             table->setItem(i,1,student_id);    student_id->setFlags(Qt::ItemIsSelectable|Qt::ItemIsEnabled );
             QTableWidgetItem* student_grade= new QTableWidgetItem(database.all_students[i]->get_grade());
-            table->setItem(i,2,student_grade);   student_grade->setFlags(Qt::ItemIsSelectable|Qt::ItemIsEnabled );
+            table->setItem(i,2,student_grade);
         }
 
 }
@@ -195,5 +195,20 @@ void studmenu::on_tablestud_cellDoubleClicked(int row, int column)
     studinfo *stud_info=new studinfo(this);
     stud_info->show();
 
+}
+
+
+void studmenu::on_tablestud_cellChanged(int row, int column)
+{
+    /*
+    if(column!=2) return;
+    QString new_grade=ui->tablestud->item(row,column)->text();
+    QString target = ui->tablestud->item(row,column)->text();
+    for(int i=0;i<database.all_students.size();i++){
+        if(database.all_students[i]->get_id()==target){
+            database.all_students[i]->set_grade(new_grade); break;
+        }
+    }
+*/
 }
 

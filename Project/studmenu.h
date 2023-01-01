@@ -48,6 +48,8 @@ private slots:
 
     void on_tablestud_cellDoubleClicked(int row, int column);
 
+    void on_tablestud_cellChanged(int row, int column);
+
 private:
     Ui::studmenu *ui;
 };

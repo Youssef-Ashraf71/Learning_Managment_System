@@ -21,6 +21,10 @@ private slots:
     void on_btn_cancel_clicked();
 
     void on_btn_add_clicked();
+    void on_combo_day_currentTextChanged(const QString &arg1);
+
+    void on_combo_hall_currentTextChanged(const QString &arg1);
+
 private:
     Ui::Add_course_menu *ui;
 };

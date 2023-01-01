@@ -13,7 +13,6 @@ public:
     QString first_name,last_name,mobile,email;
     int age;
 
-public:
     member();
     void set_name(QString first_name,QString last_name){
            this->first_name=first_name;

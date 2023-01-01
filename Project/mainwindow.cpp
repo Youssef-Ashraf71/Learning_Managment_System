@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QGuiApplication::setQuitOnLastWindowClosed(false);
     ui->setupUi(this);
-    QPixmap pix(":/media/media/logo.jpeg");
+    QPixmap pix(":/media/media/logo.png");
     ui->photo->setPixmap(pix);
     this->setWindowTitle("Log in");
     // intiialize
@@ -24,22 +24,24 @@ MainWindow::MainWindow(QWidget *parent)
 
     student *moe=new student();
        moe->set_name("Youssef","Ashraf");
-       moe->set_mobile("01007424945"); moe->set_email("yoyobunt@proton.me");
+       moe->set_mobile("01007424945");
+       moe->set_email("yoyobunt@proton.me");
        moe->set_age(20);
        moe->set_grade("2");
-       moe->set_id("1");
+       moe->set_id("S"+QString::number(database.all_students.size()+1));
 
 
-     professor *Samah=new professor("Samah","El-tantawy");
+    professor *Samah=new professor("Samah","El-tantawy","Professor","P1","SamahEltantawy@3lmni.com","9283741",25);
      vector<student*> c;
      c.push_back(moe);
-     course *math=new course(Samah,c,"Math","MTH2245","3201","8:30");
+     course *math=new course(Samah,c,"Math","MTH2245","3201","Sunday","8:30");
+     database.time_available[0][0][0]=0;
      moe->add_course(math);
      database.add_student(moe);
      database.add_course(math);
      database.add_professor(Samah);
      database.assign_grade(moe,math,"20");
-
+     database.set_course(Samah, math);
 
 
 
@@ -57,7 +59,8 @@ void MainWindow::on_btn_login_clicked()
 {
     QString user=ui->lbl_username->text();
     QString pass=ui->lbl_password->text();
-    if(database.Admin[user]==pass && user!="" && pass!="")
+    QByteArray hash = database.hashPassword(pass);
+    if(database.Admin[user]==hash && user!="" && pass!="")
     {
        hide();
        dash=new Dashboard(this);
@@ -66,9 +69,11 @@ void MainWindow::on_btn_login_clicked()
     else
     {
         ui->lbl_password->setText("");
-        error er;
-        er.setModal(true);
+       error er;
+       er.setModal(true);
         er.exec();
+
+
 
     }
 

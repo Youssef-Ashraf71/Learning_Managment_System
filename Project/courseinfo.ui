@@ -15,38 +15,59 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="1">
-     <widget class="QLabel" name="lbl_title">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
+    <item row="2" column="1">
+     <widget class="QLabel" name="lbl_ID">
       <property name="text">
        <string>TextLabel</string>
       </property>
      </widget>
     </item>
-    <item row="5" column="4">
-     <widget class="QTableWidget" name="tbl_prof">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
-      <property name="editTriggers">
-       <set>QAbstractItemView::NoEditTriggers</set>
-      </property>
-      <property name="columnCount">
-       <number>1</number>
-      </property>
-      <column/>
-     </widget>
-    </item>
     <item row="2" column="0">
      <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
        <string>Course ID :</string>
       </property>
      </widget>
     </item>
-    <item row="5" column="3">
+    <item row="4" column="1" colspan="3">
+     <widget class="QLabel" name="lbl_time">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLineEdit" name="txt_filter">
+      <property name="placeholderText">
+       <string>Enter grade</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="lbl_hall">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Lecture Hall :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
      <widget class="QTableWidget" name="tbl_stud">
       <property name="enabled">
        <bool>true</bool>
@@ -62,14 +83,69 @@
       <column/>
      </widget>
     </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="btn_filter">
+      <property name="text">
+       <string>Apply</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Day :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="7">
+     <widget class="QTableWidget" name="tbl_prof">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="columnCount">
+       <number>1</number>
+      </property>
+      <column/>
+     </widget>
+    </item>
     <item row="1" column="0">
      <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
        <string>Course Title : </string>
       </property>
      </widget>
     </item>
-    <item row="8" column="4">
+    <item row="7" column="0">
+     <widget class="QComboBox" name="combo_filter">
+      <property name="placeholderText">
+       <string>Choose filter relation</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="lbl_title">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="8">
      <widget class="QPushButton" name="pushButton">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -88,38 +164,57 @@
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QLabel" name="lbl_ID">
+    <item row="10" column="1">
+     <widget class="QPushButton" name="btn_clear_filter">
       <property name="text">
-       <string>TextLabel</string>
+       <string>clear</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
-     <widget class="QLabel" name="lbl_hall">
-      <property name="text">
-       <string>TextLabel</string>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
       </property>
-     </widget>
-    </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Lecture Hall :</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1" colspan="2">
-     <widget class="QLabel" name="lbl_time">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <widget class="QLabel" name="label_7">
       <property name="text">
        <string>Time :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="lbl_T">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QComboBox" name="combo_newstud">
+      <property name="placeholderText">
+       <string>Enroll new student</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="7">
+     <widget class="QComboBox" name="combo_newprof">
+      <property name="placeholderText">
+       <string>Assign new professor</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="QPushButton" name="btn_enroll">
+      <property name="text">
+       <string>Enroll</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="8">
+     <widget class="QPushButton" name="btn_assign">
+      <property name="text">
+       <string>Assign</string>
       </property>
      </widget>
     </item>

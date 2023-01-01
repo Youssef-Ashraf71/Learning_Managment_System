@@ -23,6 +23,7 @@ set(PROJECT_SOURCES
         member.cpp
         student.cpp
         professor.cpp
+        new_admin.cpp
         course.cpp
         courseinfo.cpp
         add_course_menu.cpp
@@ -35,6 +36,7 @@ set(PROJECT_SOURCES
         mainwindow.h
         Dashboard.h
         Database.h
+        new_admin.h
         error.h
         error.ui
         Dashboard.ui
@@ -43,10 +45,13 @@ set(PROJECT_SOURCES
         profmenu.h profmenu.cpp profmenu.ui
         coursemenu.h coursemenu.cpp coursemenu.ui
         add_course_menu.ui
+        new_admin.ui
 add_stud_menu.h add_stud_menu.cpp add_stud_menu.ui
 courseinfo.ui
 studinfo.cpp studinfo.h studinfo.ui
+add_prof_menu.cpp add_prof_menu.h add_prof_menu.ui
         Resources.qrc
+        profinfo.cpp profinfo.h profinfo.ui
 
 )
 

@@ -5,6 +5,7 @@
 #include"studmenu.h"
 #include"coursemenu.h"
 #include"profmenu.h"
+#include"new_admin.h"
 namespace Ui {
 class Dashboard;
 }
@@ -26,12 +27,16 @@ private slots:
 
     void on_btn_proff_clicked();
 
+    void on_btn_newadmin_clicked();
+
+    void on_btn_export_clicked();
 
 private:
     Ui::Dashboard *ui;
     studmenu * studd;
     profmenu* proff;
     coursemenu* courss;
+    new_admin* newaddmin;
 };
 
 #endif // DASHBOARD_H

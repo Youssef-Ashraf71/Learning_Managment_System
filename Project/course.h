@@ -20,6 +20,7 @@ class course
     QString name;
     QString code;
     QString Lecture_hall;
+    QString day;
     QString Time;
     professor* prof;
     vector<student*>studs;
@@ -31,7 +32,7 @@ public:
 
     }
     vector<professor*>profs;
-    course(professor* prof,vector<student*>studs,QString name,QString code,QString Lecture_hall,QString Time){
+    course(professor* prof,vector<student*>studs,QString name,QString code,QString Lecture_hall,QString day,QString Time){
         this->prof=prof;
         this->studs=studs;
         this->name=name;
@@ -39,9 +40,13 @@ public:
         this->Time=Time;
         this->code=code;
         this->profs.push_back(prof);
+        this->day=day;
     }
 
-
+    QString get_day()
+    {
+        return this->day;
+    }
     map<QString,QString> all_grades;
 
     void set_grade(student *s,QString g)
