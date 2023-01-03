@@ -1,0 +1,42 @@
+digraph "course.cpp"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="course.cpp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bits/stdc++.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="course.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$course_8h.html",tooltip=" "];
+  Node3 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="QMainWindow",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="QWidget",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="QObject",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node2 [color="steelblue1",style="solid"];
+  Node3 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="vector",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="student.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$student_8h.html",tooltip=" "];
+  Node8 -> Node4 [color="steelblue1",style="solid"];
+  Node8 -> Node6 [color="steelblue1",style="solid"];
+  Node8 -> Node5 [color="steelblue1",style="solid"];
+  Node8 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="member.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$member_8h.html",tooltip=" "];
+  Node9 -> Node4 [color="steelblue1",style="solid"];
+  Node9 -> Node6 [color="steelblue1",style="solid"];
+  Node9 -> Node5 [color="steelblue1",style="solid"];
+  Node9 -> Node2 [color="steelblue1",style="solid"];
+  Node8 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="set",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node11 [color="steelblue1",style="solid"];
+  Node11 [label="professor.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$professor_8h.html",tooltip=" "];
+  Node11 -> Node4 [color="steelblue1",style="solid"];
+  Node11 -> Node6 [color="steelblue1",style="solid"];
+  Node11 -> Node5 [color="steelblue1",style="solid"];
+  Node11 -> Node9 [color="steelblue1",style="solid"];
+  Node3 -> Node12 [color="steelblue1",style="solid"];
+  Node12 [label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+}

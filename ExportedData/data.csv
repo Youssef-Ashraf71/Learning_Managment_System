@@ -1,0 +1,12 @@
+Courses
+Course Name,Course ID,Supervisor,Lecture Hall,Day,Time
+Math,MTH2245,Samah El-tantawy,3201,Sunday,8:30
+
+Professors
+Professor Name,Title,ID,Email,Mobile
+Samah El-tantawy,Professor,P1,SamahEltantawy@3lmni.com,01239283651
+
+Students
+Student Name,Grade,ID,Email,Mobile
+Youssef Ashraf,2,S1,yoyobunt@proton.me,01007424945
+

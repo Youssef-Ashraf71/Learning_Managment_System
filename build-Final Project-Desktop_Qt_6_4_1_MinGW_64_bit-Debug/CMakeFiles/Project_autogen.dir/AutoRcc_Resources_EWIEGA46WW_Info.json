@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "G:/project/build-Final3-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Project_autogen",
+	"CMAKE_BINARY_DIR" : "G:/project/build-Final3-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "G:/project/build-Final3-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "G:/project/Final3",
+	"CMAKE_SOURCE_DIR" : "G:/project/Final3",
+	"INCLUDE_DIR" : "G:/project/build-Final3-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Project_autogen/include",
+	"INPUTS" : 
+	[
+		"G:/project/Final3/data/data.csv",
+		"G:/project/Final3/media/SpyBot.qss",
+		"G:/project/Final3/media/logo.png",
+		"G:/project/Final3/media/logo.jpeg",
+		"G:/project/Final3/media/proficon.png",
+		"G:/project/Final3/media/studicon.png",
+		"G:/project/Final3/media/courseicon.png"
+	],
+	"LOCK_FILE" : "G:/project/build-Final3-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Project_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resources.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/6.4.1/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "G:/project/build-Final3-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Project_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "G:/project/Final3/Resources.qrc",
+	"VERBOSITY" : 0
+}

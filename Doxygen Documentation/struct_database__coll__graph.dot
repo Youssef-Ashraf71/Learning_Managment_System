@@ -1,0 +1,18 @@
+digraph "Database"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="Database",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" selected_course" ];
+  Node2 [label="course",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classcourse.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" prof" ];
+  Node3 [label="professor",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classprofessor.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="firebrick4",style="solid"];
+  Node4 [label="member",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classmember.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" c" ];
+  Node5 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" selected_student" ];
+  Node5 [label="student",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classstudent.html",tooltip="this window shows how to add student"];
+  Node4 -> Node5 [dir="back",color="steelblue1",style="solid"];
+}
