@@ -11,6 +11,7 @@
 - [💻 Language](#Built_Using)
 - [📃 EXported_CSV](#EXported_CSV)
 - [🗂️UML_Diagrams](#UML_Diagrams)
+- [📷Demo Screenshots](#Screenshots)
 - [🙅🏻‍♂️Contributors](#Contributors)
 
 ## 📙About <a name = "About"></a> 
@@ -98,6 +99,27 @@
 
 ### Sequence Diagram
   <p align="left"> <img width="100%" src="https://user-images.githubusercontent.com/83988379/210269646-c64039a0-ea5f-4cab-a06e-4d2a06df01cd.png" /> </p>
+
+
+## 📷Demo Screenshots <a name = "Screenshots"></a>  
+- Login || Dashboard
+<p align="left"> <img width="100%" src="https://user-images.githubusercontent.com/83988379/210451682-bdb142fd-2cdd-49ca-aa7e-5ca60db60a6f.png" /> </p>
+
+- Courses Menu || Course Info
+<p align="left"> <img width="100%" src="https://user-images.githubusercontent.com/83988379/210452016-fd27eaf5-3ad0-4e70-9d66-394f252c870f.png" /> </p>
+
+- Students Menu || Student Info
+<p align="left"> <img width="100%" src="https://user-images.githubusercontent.com/83988379/210452363-b5766fb1-ef04-424f-a63a-1be2ffcf1eef.png" /> </p>
+
+- Professor Menu || Professor Info
+<p align="left"> <img width="100%" src="https://user-images.githubusercontent.com/83988379/210452446-207e78d5-76ab-4da1-925d-95cf0ee52cda.png" /> </p>
+
+- Add Course || Add Student
+<p align="left"> <img width="100%" src="https://user-images.githubusercontent.com/83988379/210452767-10f03a71-d5a8-4756-9a2f-41ca6d0a9297.png" /> </p>
+
+- Add Professor ||  Add Admin 
+<p align="left"> <img width="100%" src="https://user-images.githubusercontent.com/83988379/210453253-93bf473d-3b69-4f70-9d3c-c7386d23f39d.png" /> </p>
+
 
 ## 🙅🏻‍♂️Contributors <a name = "Contributors"></a>
 <table>

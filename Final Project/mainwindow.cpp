@@ -41,7 +41,7 @@ MainWindow::MainWindow(QWidget *parent)
           moe2->set_id("S2");
 
         student *moe3=new student();
-             moe3->set_name("Hazem","Rafat");
+             moe3->set_name("Hazem","Raafat");
              moe3->set_mobile("01003924933");
              moe3->set_email("Hazemlol1@proton.me");
              moe3->set_age(19);
@@ -94,6 +94,13 @@ MainWindow::MainWindow(QWidget *parent)
      database.add_professor(Batman);
      database.add_professor(Muhamed);
      database.assign_grade(moe1,math,"20");
+     database.assign_grade(moe1,DSA,"-");
+     database.assign_grade(moe1,circuits,"-");
+     database.assign_grade(moe2,math,"-");
+     database.assign_grade(moe2,DSA,"-");
+     database.assign_grade(moe3,DSA,"-");
+     database.assign_grade(moe4,DSA,"-");
+     database.assign_grade(moe4,circuits,"-");
      database.set_course(Samah, math);
     database.set_course(Ahmed, DSA); database.set_course(Batman, circuits);
 

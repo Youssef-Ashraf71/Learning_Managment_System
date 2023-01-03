@@ -111,7 +111,7 @@ void studinfo::on_enrollbtn_clicked()
    }
    database.selected_student->add_course(database.selected_course);
    database.selected_course->add_student(database.selected_student);
-   database.assign_grade(database.selected_student,database.selected_course,"NULL");
+   database.assign_grade(database.selected_student,database.selected_course,"-");
 
 
    // load table after that once again

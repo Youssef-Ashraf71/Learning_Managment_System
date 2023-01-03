@@ -328,7 +328,7 @@ void Courseinfo::on_btn_enroll_clicked()
         student * req_student=database.get_student(id);
         req_student->add_course(database.selected_course);
         database.selected_course->add_student(req_student);
-        database.assign_grade(req_student,database.selected_course,"NULL");
+        database.assign_grade(req_student,database.selected_course,"-");
         Courseinfo::reload_table();
         visited[id]=1;
         ui->combo_newstud->clear();
